@@ -1,0 +1,134 @@
+ [
+        {
+            "id": 1,
+            "picture": "https://i.ibb.co/ChNtSkW/Health.png",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg_color": "#0052FF33",
+            "card_bg_color": "#0052FF26",
+            "text_button_bg_color": "#0052FF",
+            "description": "For our own health and safety, it is essential that the water we consume be clean and free from disease-causing germs, metals, and waste products. Drinking unclean water can lead to serious illnesses. However, it's not solely regarding consuming water. Sanitary water supplies are essential for proper sanitation.",
+           "price": "$20"
+        },
+        {
+            "id": 2,
+            "picture": "https://i.ibb.co/vXxgtMk/Education.png",
+            "title": "Good Education",
+            "category": "Education",
+            "category_bg_color": "#FF444A33",
+            "card_bg_color": "#FF444A26",
+            "text_button_bg_color": "#FF444A",
+            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial   assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": "$30"
+        },
+        {
+            "id": 3,
+            "picture": "https://i.ibb.co/JqqByM1/Clothing.png",
+            "title": "Used Clothing Drive",
+            "category": "Clothing",
+            "category_bg_color": "#79C23F33",
+            "card_bg_color": "#79C23F26",
+            "text_button_bg_color": "#79C23F",
+            "description": "In today's society, clothes continue to play a significant role in how we present ourselves to the world and how we are perceived by others. Clothing is a form of nonverbal communication, sending messages about one's personality, social status, and cultural background.",
+            "price": "$25"
+        },
+        {
+            "id": 4,
+            "picture": "https://i.ibb.co/8dk6S1W/Food.png",
+            "title": "Food for Everyone",
+            "category": "Food",
+            "category_bg_color": "#F8714733",
+            "card_bg_color": "#F8714726",
+            "text_button_bg_color": "#F87147",
+            "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes.",
+            "price": "$40"
+        },
+        {
+            "id": 5,
+            "picture": "https://i.ibb.co/8dk6S1W/Food.png",
+            "title": "Healthy Foods for children",
+            "category": "Food",
+            "category_bg_color": "#F8714733",
+            "card_bg_color": "#F8714726",
+            "text_button_bg_color": "#F87147",
+            "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes.",
+            "price": "$10"
+        },
+        {
+            "id": 6,
+            "picture": "https://i.ibb.co/JqqByM1/Clothing.png",
+            "title": "Winter Clothing",
+            "category": "Clothing",
+            "category_bg_color": "#79C23F33",
+            "card_bg_color": "#79C23F26",
+            "text_button_bg_color": "#79C23F",
+            "description": "In today's society, clothes continue to play a significant role in how we present ourselves to the world and how we are perceived by others. Clothing is a form of nonverbal communication, sending messages about one's personality, social status, and cultural background.",
+            "price": "$50"
+        },
+        {
+            "id": 7,
+            "picture": "https://i.ibb.co/vXxgtMk/Education.png",
+            "title": "Free Primary Education",
+            "category": "Education",
+            "category_bg_color": "#FF444A33",
+            "card_bg_color": "#FF444A26",
+            "text_button_bg_color": "#FF444A",
+            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial   assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": "$60"
+        },
+        {
+            "id": 8,
+            "picture": "https://i.ibb.co/ChNtSkW/Health.png",
+            "title": "Free Medicine",
+            "category": "Health",
+            "category_bg_color": "#0052FF33",
+            "card_bg_color": "#0052FF26",
+            "text_button_bg_color": "#0052FF",
+            "description": "Medicines can treat diseases and improve your health. If you are like most people, you need to take medicine at some point in your life. You may need to take medicine every day, or you may only need to take medicine once in a while",
+            "price": "$70"
+        },
+        {
+            "id": 9,
+            "picture": "https://i.ibb.co/ChNtSkW/Health.png",
+            "title": "Clean Environment",
+            "category": "Health",
+            "category_bg_color": "#0052FF33",
+            "card_bg_color": "#0052FF26",
+            "text_button_bg_color": "#0052FF",
+            "description": "Keeping your environment clean—whether at home, work, school or the hospital—is an important way to prevent infection. Dangerous germs can take up residence anywhere. By keeping them to a minimum, you will reduce your chances of developing an infection and improve your health.",
+            "price": "$80"
+        },
+        {
+            "id": 10,
+            "picture": "https://i.ibb.co/vXxgtMk/Education.png",
+            "title": "Scholarship for poor student",
+            "category": "Education",
+            "category_bg_color": "#FF444A33",
+            "card_bg_color": "#FF444A26",
+            "text_button_bg_color": "#FF444A",
+            "description": "There are many poor students whom cannot afford their higher educaton Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": "$60"
+        },
+        {
+            "id": 11,
+            "picture": "https://i.ibb.co/JqqByM1/Clothing.png",
+            "title": "Cloths on Festivals",
+            "category": "Clothing",
+            "category_bg_color": "#79C23F33",
+            "card_bg_color": "#79C23F26",
+            "text_button_bg_color": "#79C23F",
+            "description": "In today's society, clothes continue to play a significant role in how we present ourselves to the world and how we are perceived by others. Clothing is a form of nonverbal communication, sending messages about one's personality, social status, and cultural background.",
+            "price": "$100"
+        },
+        {
+            "id": 12,
+            "picture": "https://i.ibb.co/8dk6S1W/Food.png",
+            "title": "Food for one taka",
+            "category": "Food",
+            "category_bg_color": "#F8714733",
+            "card_bg_color": "#F8714726",
+            "text_button_bg_color": "#F87147",
+            "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes.",
+            "price": "20"
+        }
+]
