@@ -11,12 +11,14 @@ import Donation from './components/Donation/Donation.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
 import Root from './components/Root/Root.jsx';
 import CardDetails from './components/CardDetails/CardDetails';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -25,6 +27,7 @@ const router = createBrowserRouter([
       {
         path: '/donation', 
         element: <Donation></Donation> ,
+        loader : () => fetch('/donate.json'),
       },
       {
         path: '/statistics', 
