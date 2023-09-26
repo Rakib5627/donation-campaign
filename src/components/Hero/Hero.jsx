@@ -6,12 +6,7 @@ const Hero = () => {
     // console.log(keyword)
     const searchHandler = (e) => {
         e.preventDefault();
-
-        if (keyword == 'health') {
-            console.log('abc')
-        } else {
-            console.log('ggg')
-        }
+        console.log(keyword);
     }
 
 
