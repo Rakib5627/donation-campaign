@@ -5,8 +5,8 @@ import Hero from "../Hero/Hero";
 const Home = () => {
     return (
         <div>
-            <div className="xl:max-w-7xl mx-auto"><Hero></Hero></div>
-            <Cards></Cards>
+            <div className=" max-w-xs sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-full mx-auto"><Hero></Hero></div>
+            <div className="lg:max-w-4xl xl:max-w-6xl max-w-6xl mx-auto"><Cards></Cards></div>
         </div>
 
     );

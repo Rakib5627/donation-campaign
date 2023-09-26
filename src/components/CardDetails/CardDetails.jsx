@@ -23,9 +23,9 @@ const CardDetails = () => {
             
             <div className="card relative">
                 <figure><img src={card.picture} alt="" className="w-full" /></figure>
-                <div className="card-body absolute bottom-0 left-0 bg-opacity-50 bg-black w-full">
+                <div className="card-body absolute -bottom-4 -left-4 md:bottom-0 md:left-0 md:bg-opacity-50 md:bg-black w-full">
                     <div className="card-actions justify-start">
-                        <button onClick={handleDonate} className="btn border-black" style={{background : card.text_button_bg_color }}>Donate {card.price}</button>
+                        <button onClick={handleDonate} className="btn border-black btn-xs sm:btn-sm md:btn-md lg:btn-lg" style={{background : card.text_button_bg_color }}>Donate {card.price}</button>
                     </div>
                     
                 </div>

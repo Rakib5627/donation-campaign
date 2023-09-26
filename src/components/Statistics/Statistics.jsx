@@ -27,9 +27,9 @@ const Statistics = () => {
 
 
     return (
-        <div className='mt-10 max-w-lg mx-auto text-center'>
+        <div className='mt-10 max-w-sm mx-auto text-center'>
             
-            <PieChart width={400} height={400}>
+            <PieChart width={300} height={300}>
                 <Pie
                     data={data}
                     fill="#8884d8"
