@@ -19,7 +19,7 @@ const CardDetails = () => {
 
 
     return (
-        <div className="max-w-6xl mx-auto mt-10">
+        <div className="max-w-5xl mx-auto mt-10">
             
             <div className="card relative">
                 <figure><img src={card.picture} alt="" className="w-full" /></figure>

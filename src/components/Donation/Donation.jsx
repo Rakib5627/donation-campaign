@@ -28,7 +28,7 @@ const Donation = () => {
         , [])
 
     return (
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {
                     donation.slice(0, dataLength).map(cardD => <CardD key={cardD.id} cardD={cardD}></CardD>)
