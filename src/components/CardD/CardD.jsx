@@ -1,8 +1,8 @@
-
+import PropTypes from 'prop-types'; 
 
 const CardD = ({ cardD }) => {
 
-    const {id , picture, title, price, category, card_bg_color, category_bg_color, text_button_bg_color } = cardD;
+    const { picture, title, price, category, card_bg_color, category_bg_color, text_button_bg_color } = cardD;
 
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl" style={{background : card_bg_color }}>
@@ -18,5 +18,9 @@ const CardD = ({ cardD }) => {
         </div>
     );
 }; 
+
+CardD.propTypes ={
+    cardD : PropTypes.object
+}
 
 export default CardD;

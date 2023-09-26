@@ -25,11 +25,11 @@ const Donation = () => {
             setDonation(cardsDonated);
         }
     }
-        , [])
+        , [donatedCards])
 
     return (
         <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
                 {
                     donation.slice(0, dataLength).map(cardD => <CardD key={cardD.id} cardD={cardD}></CardD>)
                 }
@@ -37,7 +37,7 @@ const Donation = () => {
             <div className={dataLength === donation.length ? 'hidden' : 'text-center'}>
                    <button
                     onClick={() => setDataLength(donation.length)}
-                    className="btn bg-red-500 hover:bg-red-600 mt-10 text-white">Show All
+                    className={donation.length > 4 ? 'btn btn-success' : 'hidden'}>Show All
                     </button>
             </div>
         </div>

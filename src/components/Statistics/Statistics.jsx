@@ -1,48 +1,41 @@
 
+import { Chart } from "react-google-charts";
+import { getStoredCardApplication } from "../../Utility/localStorage";
 
 
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
-import { getStoredCardApplication } from '../../Utility/localStorage';
+
+
 
 
 const Statistics = () => {
 
-
     const storedCardIds = getStoredCardApplication();
-
     const selected = storedCardIds.length;
     const remaining = 12 - selected;
-    const x = (selected*100/12).toFixed(2);
-    const y = (remaining*100/12).toFixed(2);
-    console.log(selected, remaining)
+
+
+    const options = {
+        title: "Donation Chart",
+    };
 
     const data = [
-        { id: 1, name: 'Selected', value: selected },
-        { id: 2, name: 'Remaining', value: remaining },
+        ["Donation Chart", "Total Donation"],
+        ["Your Donation", selected],
+        ["Total Donation", remaining],
     ];
-
-    const COLORS = ['#FF444A', '#00C49F'];
-
-
-
+    
     return (
-        <div className='mt-10 max-w-sm mx-auto text-center'>
-            
-            <PieChart width={300} height={300}>
-                <Pie
-                    data={data}
-                    fill="#8884d8"
-                    dataKey="value">
-                    {data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
-                </Pie>
-            </PieChart>
+        <div className='mt-10'>
 
-            <p className='text-white mr-40 text-center' style={{background : '#FF444A' }}>Selected-{x}%</p>
-            <br />
-            <p className=' text-white mr-40 text-center' style={{background : '#00C49F' }}>Remaining-{y}%</p>
+            <Chart
+                chartType="PieChart"
+                data={data}
+                options={options}
+                width={"100%"}
+                height={"400px"}
+            />
+
 
         </div>
     );
